@@ -31,3 +31,21 @@ PGLife is open source and actively developed. If you have any suggestions or imp
 
 # License
 PGLife is licensed under the MIT License.
+
+# How to Run Code with Apache
+To run the code, you will need to start Apache first. Apache is a web server that is used to serve web pages. You can start Apache by following these steps:
+
+1. Open a terminal window.
+2. Type the following command:
+sudo service apache2 start
+3. Press Enter.
+Once Apache is started, you can go to the following URL in your web browser:
+
+http://127.0.0.1/PGLife
+This will open the PGLife web page.
+
+Here are some additional things to keep in mind:
+
+* The IP address 127.0.0.1 is the loopback address. This means that it refers to the same computer that you are using.
+* The URL http://127.0.0.1/PGLife is the address of the PGLife web page.
+* If you are using a different operating system, the commands to start Apache may be different.
